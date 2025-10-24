@@ -33,7 +33,7 @@ jobs:
         run: zip -r release.zip build
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: react-app
           path: release.zip
